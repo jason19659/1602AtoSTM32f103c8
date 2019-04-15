@@ -4,7 +4,7 @@
 
 int main(void)
 {
-	u8 str[] = "ATOM@ALIENTEK";
+	u8 str[] = "!@##$%^$%&%^*";
 
 	GPIO_Configuration();
 //	setBits(GPIOB, GPIO_Pin_8,1);
@@ -20,7 +20,7 @@ int main(void)
 	LCD1602_Init();
 	LCD1602_ClearScreen();
 	LCD1602_Show_Str(2, 0, str);
- 	LCD1602_Show_Str(2, 1, "I love STM32");
+ 	LCD1602_Show_Str(2, 1, "ASDFJKKJASDFVCVC");
 
 
 }
