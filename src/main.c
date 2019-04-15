@@ -1,5 +1,4 @@
-#include "Systick.h"
-#include "led.h"
+
 #include "1602.h"
 
 int main(void)
@@ -20,7 +19,7 @@ int main(void)
 	LCD1602_Init();
 	LCD1602_ClearScreen();
 	LCD1602_Show_Str(2, 0, str);
- 	LCD1602_Show_Str(2, 1, "ASDFJKKJASDFVCVC");
+ 	LCD1602_Show_Str(2, 1, "A1ASDA2");
 
 
 }
